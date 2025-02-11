@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker: Regex-Saurus Rex!</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Madimi+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Opening heading -->
+    <h1>Regex-Saurus Rex!</h1>
+    <!-- Container for content -->
+    <div id="container">
+      <!-- Subcontainer for explanatory content and user input -->
+      <div id="main-content">
+        <p>Palindromes are words that are spelt the same when reversed. They make tasty food for the Regex-Saurus Rex, a picky dinosaur that loves a lunch full of letters!</p>
+        <label for="text-input">Try feeding Regex-Saurus Rex below and see if your word's a palindrome.</label>
+        <br>
+        <input id="text-input" type="text" name="user-input" placeholder="e.g. Eye"></input>
+      </div>
+      <!-- Subcontainer for buttons -->
+      <div id="button-container">
+        <button id="check-btn">Press to feed the Rex!</button>
+        <button id="clear-btn">Press to restart the Rex!</button>
+      </div>
+      <!-- Subcontainer for displaying results of user input-->
+      <div id="result">
+        <p id="result-content"></p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
