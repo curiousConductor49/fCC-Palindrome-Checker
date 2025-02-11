@@ -1,0 +1,102 @@
+/* Fonts sourced from Google Fonts: 
+Madimi One (heading), Gabriela (body content)
+*/
+
+
+:root {
+    --background: #348AA7;
+    --main: #5DD39E;
+    --accent: #BCE784;
+    --white: #FFFFFF;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--background);
+  }
+  
+  #container {
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    height: 500px;
+    width: 430px;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  #main-content {
+    background-color: var(--main);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 450px;
+  }
+  
+  #text-input {
+    font-family: "Madimi One";
+    font-size: 25px;
+    color: var(--background);
+    text-align: center;
+    border-radius: 5px;
+    border: 3px dotted var(--accent);
+    margin: 10px 0px;
+    padding: 25px 10px;
+    height: 40px;
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  button {
+    background-color: var(--accent);
+    color: var(--white);
+    font-family: "Madimi One", "Arial Rounded MT Bold";
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid var(--main);
+    height: 60px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50px;
+  }
+  
+  button:hover {
+    color: var(--main);
+    border: 5px solid var(--white);
+  }
+  
+  h1 {
+    color: var(--white);
+    font-family: "Madimi One", "Arial Rounded MT Bold";
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  p, label {
+    font-family: "Gabriela", "Gill Sans";
+    line-height: 1.5;
+  }
+  
+  #result {
+    position: relative;
+    top: 80px;
+  }
+  
+  #result-content {
+    color: var(--white);
+    font-size: 25px;
+    border-bottom: 2px solid var(--white);
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+  }  
